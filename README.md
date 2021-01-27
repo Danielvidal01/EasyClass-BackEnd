@@ -17,6 +17,10 @@ como faço para reproduzir esta aplicação na minha maquina caso ela não estej
 
 
 pode se utilizar tanto o NPM quanto o yarn:
+  //para o node_modules
+
+    npm init  
+
   //para o express
     
     npm install express
