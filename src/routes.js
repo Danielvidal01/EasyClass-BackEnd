@@ -13,5 +13,8 @@ routes.get('/student/:studentId',StudentController.ShowSubject);
 routes.post('/subject/:studentId',SubjectController.Create);
 routes.get('/subject/',SubjectController.Show);
 
+//rota de login.
+
+routes.post('/login',StudentController.Login)
 
 module.exports=routes;

@@ -15,7 +15,8 @@ module.exports={
             return res.status(400).json({error:'user not found'})
         }
         const [subject,created] = await Subject.findOrCreate({
-            where:{Name,Description}
+            where:{Name},
+            defaults:{Description}
         })
         await student.addSubject(subject);
         return res.json(subject)
