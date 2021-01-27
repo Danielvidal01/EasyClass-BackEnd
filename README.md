@@ -4,7 +4,16 @@
 
 
 como faço para reproduzir esta aplicação na minha maquina caso ela não esteja no ar?
-    bom, para evitar um trafego muito grande, a pasta node_modules que é uma pasta advinda do nosso nodeJS para a utilização de certos recursos, fica de fora do repositorio no GIT, alem disso, é nessesario instalar os repositorios para os modulos usados nesse projetos, como o bcrypt, que vai criptografar nossas senhas, o Express, que é o micro-framework simplificador de servidor e das rotas(alem de posibilitar o uso de middlewares), o nodemon que vai verificar cada salvamento do projeto, e vai rodar o servidor novamente, alem do nosso banco de dados, o PostgreSQL, e o Sequelize nosso ORM(basicamente nos ajuda a trabalhar mais facilmente com banco de dados.)
+
+    bom, para evitar um trafego muito grande, a pasta node_modules que é uma pasta 
+    advinda do nosso nodeJS para a utilização de certos recursos, fica de fora do
+    repositorio no GIT, alem disso, é nessesario instalar os repositorios para os 
+    modulos usados nesse projetos, como o bcrypt, que vai criptografar nossas 
+    senhas, o Express, que é o micro-framework simplificador de servidor e 
+    das rotas(alem de posibilitar o uso de middlewares), o nodemon que vai 
+    verificar cada salvamento do projeto, e vai rodar o servidor novamente, 
+    alem do nosso banco de dados, o PostgreSQL, e o Sequelize nosso ORM(basicamente 
+    nos ajuda a trabalhar mais facilmente com banco de dados.)
 
 
 pode se utilizar tanto o NPM quanto o yarn:
