@@ -7,7 +7,7 @@ const SubjectController = require('./controllers/SubjectController');
 
 //rotas estudantes.
 routes.post('/student',StudentController.Create);
-routes.get('/student/:studentId',StudentController.ShowSubject);
+//routes.get('/student/:studentId',StudentController.ShowSubject);
 
 //rotas das materias.
 routes.post('/subject/:studentId',SubjectController.Create);

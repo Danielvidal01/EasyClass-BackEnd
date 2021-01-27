@@ -17,6 +17,7 @@ como faço para reproduzir esta aplicação na minha maquina caso ela não estej
 
 
 pode se utilizar tanto o NPM quanto o yarn:
+  
   //para o node_modules
 
     npm init  
@@ -46,13 +47,11 @@ pode se utilizar tanto o NPM quanto o yarn:
 
 
 Como faço para utilizar as migrations?
+
     de um jeito bem simplificado, as migrations são como models pre-definidos ( não se enegane, ainda é nessesario utilizar um model ) e elas servem para evitar conflitos de equipe, ou seja, é um GIT de banco de dados.
     cada migration feita, é salvo o nome e a data/hora .
-
     sempre cada migration vai ter que "fazer algo" e depois "desfazer", isso vai nos ajudar no caso de erros, ou caso precisemos fazer alguma modificação do banco de dados.
-
     o intuito aqui não é explicar cada detalhe das migrations, para isso pode se utilizar a DOCUMENTAÇÃO do sequelize, aqui eu so irei deixar (de bandeja inclusive) os comandos mais utilizados no nosso sequelize CLI.
-
 
     criando uma migration:
 

@@ -36,7 +36,7 @@ module.exports={
     },
     async Login(req,res){
         const {Email,Password} = req.body;
-        const student = await Student.findOne({where:{Email:Email}});
+        const student = await Student.findOne({where:{Email:Email},include:{association:'Subject'}});
         if(student){
             const validPass = await bcrypt.compare(Password, student.Password)
             if(validPass){
