@@ -1,6 +1,6 @@
 # EasyClass-BackEnd
 
-# EXPRESS + SEQUELIZE + POSTGRESQL + NODEMON + BCRYPT // COM MIGRATIONS 
+# NODEJS + EXPRESS + SEQUELIZE + POSTGRESQL + NODEMON + BCRYPT // COM MIGRATIONS 
 
 
 como faço para reproduzir esta aplicação na minha maquina caso ela não esteja no ar?
